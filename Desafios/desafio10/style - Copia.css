@@ -5,10 +5,11 @@
 @font-face {
     font-family: 'droid' ;
     src: url('pacote-projeto-d010/fontes/idroid.otf');
+}
 @font-face {
     font-family: 'bebasneue' ;
-    src: url('');
-}
+    src: url('fontes/BebasNeue-Regular.otf');
+
 }
 
 header {

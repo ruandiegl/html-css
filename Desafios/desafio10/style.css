@@ -12,7 +12,7 @@
 }
 @font-face {
     font-family: 'bebasneue' ;
-    src: url('BebasNeue-Regular.ttf');
+    src: url('fontes/BebasNeue-Regular.otf');
 }
 body {
     background-color: #82D9A0;
