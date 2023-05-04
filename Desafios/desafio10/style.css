@@ -56,7 +56,8 @@ nav > a {
     
 }
 nav {
-    margin: 15px 10px 10px 10px;
+    padding-bottom: 10px;
+    background-color: #1B5936;
 
 }
 nav > a:hover {
