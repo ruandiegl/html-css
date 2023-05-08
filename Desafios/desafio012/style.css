@@ -56,7 +56,10 @@ section.normal {
     background-color: white;
     color: black;
 }
-section.imagem1 {
+section.imagem {
+    box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.512);
+}
+section#img01 {
     background-color: gray;
     color: white;
     background-image: url('imagens/background001.jpg');
@@ -64,7 +67,7 @@ section.imagem1 {
     background-size: cover;
     background-attachment: fixed;
 }
-section.imagem2 {
+section#img02 {
     background-color: gray;
     color: white;
     background-image: url('imagens/background002.jpg');
@@ -72,13 +75,14 @@ section.imagem2 {
     background-size: cover;
     background-attachment: fixed;
 }
-section.imagem1 > p, section.imagem2 > p {
+section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.582);
     border: 1px black;
     border-radius: 7px;
     padding: 10px;
+    text-shadow: 1px 1px 0px black;
 }
 footer {
     background-color: black;
