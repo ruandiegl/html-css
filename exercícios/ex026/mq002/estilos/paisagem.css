@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* Aparelho Deitado (Landscape)*/
+
+body {
+    background-image: url(/exercícios/ex026/mq002/Imagens/cev-landscape.jpg);
+    background-position: left bottom;
+    font-family: Arial, Helvetica, sans-serif;
+}
