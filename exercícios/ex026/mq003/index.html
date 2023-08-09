@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media query</title>
     <style>
-        /*Configuraçoes gerais*/
-                * {
+/*Configuraçoes gerais*/
+        * {
             margin: 0px;
             padding: 0px;
             font-family: Arial, Helvetica, sans-serif;
@@ -15,28 +15,28 @@
         html, body {
             width: 100vw;
             height: 100vh;
-        background-color: #233eff;
-        background-size: contain;
-        background-repeat: no-repeat;
+            background-color: #233eff;
+            background-size: contain;
+            background-repeat: no-repeat;
         }
         h1 {
             color: white;
             text-shadow: 3px 0px black;
             padding: 10px;
         }
-        /*configuraçoes retrato*/
+/*configuraçoes retrato*/
         @media screen and (orientation: portrait) {
         body {
             background-image: url(/exercícios/ex026/mq002/Imagens/cev-portrait.jpg);
             background-position: center bottom;
 }   
         }
-        /*configuraçoes paisagem*/
+/*configuraçoes paisagem*/
         @media screen and (orientation: landscape) {
-            body {
-                    background-image: url(/exercícios/ex026/mq002/Imagens/cev-landscape.jpg);
-                    background-position: left bottom;
-                    font-family: Arial, Helvetica, sans-serif;
+        body {
+            background-image: url(/exercícios/ex026/mq002/Imagens/cev-landscape.jpg);
+            background-position: left bottom;
+            font-family: Arial, Helvetica, sans-serif;
                 }
         }
     </style>
